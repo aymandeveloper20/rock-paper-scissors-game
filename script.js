@@ -41,6 +41,6 @@ function playGame(userChoice) {
     computerScore++;
     updateScore(computerScore_span, computerScore);
   } else {
-    result_p.innerHTML = `It's tie`;
+    result_p.innerHTML = `It's a tie`;
   }
 }
